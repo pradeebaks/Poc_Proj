@@ -4,7 +4,7 @@ ssh = pa.SSHClient()
 
 
 ssh.set_missing_host_key_policy(pa.AutoAddPolicy())
-ssh.connect('ehpsalnabit01v.e-hps.com',port=22,username='pshanmug', password='Krishna16')
+ssh.connect('XXXX',port=22,username='pshanmug', password='Krishna16')
 print("connected")
 stdin,stdout,stderr = ssh.exec_command('ls -l')
 
